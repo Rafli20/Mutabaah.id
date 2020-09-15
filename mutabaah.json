@@ -1,0 +1,28 @@
+{
+  "mutabaah": [
+    {
+      "id": 1,
+      "nama": "Rafli Farhan Saputra",
+      "surat": "Yasin",
+      "ayat": "1-5",
+      "juz": "23",
+      "tanggal": "11-09-2020"
+    },
+    {
+      "id": 1,
+      "nama": "Rafli Farhan Saputra",
+      "surat": "Yasin",
+      "ayat": "1-5",
+      "juz": "23",
+      "tanggal": "11-09-2020"
+    },
+    {
+      "nama": "Babel",
+      "surat": "Yasin",
+      "ayat": "1-10",
+      "juz": "23",
+      "tanggal": "15-09-2020",
+      "id": 2
+    }
+  ]
+}
