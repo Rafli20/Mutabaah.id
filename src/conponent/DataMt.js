@@ -20,8 +20,13 @@ class DataMt extends React.Component {
             }))
         console.log(this.state)
     }
+
+
     render() {
         const { Data } = this.state
+        async function Delete() {
+            await axios.delete("http://localhost:8000/mutabaah?id=" + Data.id)
+        }
         return (
             <div>
                 <div className="jumbotron container">
@@ -48,9 +53,7 @@ class DataMt extends React.Component {
                                         <td className="tgl"> {Data.juz} </td>
                                         <td className="tgl"> {Data.tanggal} </td>
                                         <td className="tgl">
-                                            <a className="text-white" href="">
-                                                <FontAwesomeIcon icon={faTrash} />
-                                            </a>
+                                            <FontAwesomeIcon className="text-white" aria-hidden="true" icon={faTrash} onClick={Delete} />
                                         </td>
                                     </tr>
                                 </div>
